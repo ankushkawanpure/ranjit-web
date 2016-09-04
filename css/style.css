@@ -102,7 +102,6 @@ h3 {
 
 }
 
-
 ul.nav li.dropdown:hover ul.dropdown-menu {
     display: block;
 }
@@ -282,4 +281,20 @@ Tech
 
 }
 
+
+/*Project single page */
+#project {
+font-weight: 900;
+    min-height: 100%;
+}
+
+#project h5, b {
+    font-weight: 900;
+    font-size: 1.1em;
+}
+
+#project p {
+    font-weight: 400;
+
+}
 
