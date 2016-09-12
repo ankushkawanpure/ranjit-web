@@ -40,6 +40,11 @@ h3 {
     font-weight: 600;
 }
 
+h4 {
+    color: #000000;
+    font-weight: 600;
+}
+
 /** Margin Adjustment*/
 .main-top-margin {
     margin-top: 60px;
@@ -52,6 +57,10 @@ h3 {
 
 .main-low-margin {
     margin-bottom: 35px;
+}
+
+.main-p-margin {
+    margin-top: 15px;
 }
 
 
@@ -75,31 +84,31 @@ h3 {
     font-weight: 900;
 }
 
-.navbar-default {
-    background: #f2f2f2;
+.navbar-inverse {
+
 }
 
-.navbar-default .navbar-brand {
-    color: #000000;
+.navbar-inverse .navbar-brand {
+
     font-size: 2.0em;
     font-weight: 900;
     letter-spacing: 2px;
+    color: #ffffff;
 }
 
-.navbar-default .navbar-nav >li > a {
+.navbar-inverse .navbar-nav >li > a {
     font-size: 1.1em;
     font-weight: 700;
 }
 
-.navbar-default .navbar-nav :hover,
-.navbar-default .navbar-nav :focus {
-    background: #fcfcfc;
+.navbar-inverse .navbar-nav :hover,
+.navbar-inverse .navbar-nav :focus {
+    background: #000000;
 }
 
-.navbar-default .navbar-nav > .active > a {
-    background: #fafafa;
+.navbar-inverse .navbar-nav > .active > a {
+    background: gray;
     color: #000000;
-
 }
 
 ul.nav li.dropdown:hover ul.dropdown-menu {
@@ -109,26 +118,13 @@ ul.nav li.dropdown:hover ul.dropdown-menu {
 /* Header Section */
 #header {
 
-    background: #ffffff no-repeat center top;
+    background: url('../images/backgroud.jpg') no-repeat center top;
     padding-top:20px;
     text-align:justify;
-    background-position: center center;
+    /*background-position: center center;*/
     min-height: 100%;
 }
 
-#header p {
-    font-size: 1.2em;
-    line-height: 1.3em;
-    font-weight: 700;
-}
-
-#header img {
-
-}
-
-#header b {
-    font-weight: 700;
-}
 
 /*About Section*/
 #about {
@@ -298,3 +294,11 @@ font-weight: 900;
 
 }
 
+
+.line{
+    background:#f1f1f1;
+    border-bottom-color:#f3f3f3;
+    display: block;
+    height: 2px;
+
+}
