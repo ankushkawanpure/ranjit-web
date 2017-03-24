@@ -201,10 +201,13 @@ ul.nav li.dropdown:active ul.dropdown-menu  li :active{
 /*Work section*/
 #work {
     min-height: 100%;
-    background: #fafafa;
+    background: #ffffff;
     padding-bottom: 35px;
 }
 
+#work article {
+    padding-top: 60px;
+}
 #work img {
     /*width: 300px;*/
     /*height: 300px;*/
@@ -233,7 +236,7 @@ ul.nav li.dropdown:active ul.dropdown-menu  li :active{
 /*Project Section*/
 #projects {
     min-height: 100%;
-    background: #ffffff;
+    background: #fafafa;
 }
 /*End Project Section*/
 
@@ -280,7 +283,7 @@ ul.nav li.dropdown:active ul.dropdown-menu  li :active{
     margin-bottom: 15px;
 }
 .message-details .btn {
-    background-color: #11b674;
+    background-color: #2a3133;
     border: 1px solid transparent;
     border-radius: 2px;
     color: #ffffff;
@@ -291,7 +294,7 @@ ul.nav li.dropdown:active ul.dropdown-menu  li :active{
 }
 
 .email-lnk {
-    background-color: #11b674;
+    background-color: #2a3133;
     border: 1px solid transparent;
     border-radius: 2px;
     color: #ffffff;
